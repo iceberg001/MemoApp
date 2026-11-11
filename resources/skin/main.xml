@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="750,500" mininfo="750,500" caption="0,0,132,44" sizebox="6,6,6,6" roundcorner="2,2">
+  <Font id="0" name="微软雅黑" size="13"/>
+  <Font id="1" name="微软雅黑" size="15"/>
+  <Font id="2" name="微软雅黑" size="12"/>
+  <Default name="VScrollBar" value="width='16' bknormalimage=&quot;file='icons/scroll_track.png'&quot; thumbnormalimage=&quot;file='icons/scroll_thumb.png' corner='2,8,2,8'&quot; thumbhotimage=&quot;file='icons/scroll_thumb_hot.png' corner='2,8,2,8'&quot; thumbpushedimage=&quot;file='icons/scroll_thumb_pushed.png' corner='2,8,2,8'&quot; button1normalimage=&quot;file='icons/scroll_up.png'&quot; button1hotimage=&quot;file='icons/scroll_up.png'&quot; button1pushedimage=&quot;file='icons/scroll_up.png'&quot; button2normalimage=&quot;file='icons/scroll_down.png'&quot; button2hotimage=&quot;file='icons/scroll_down.png'&quot; button2pushedimage=&quot;file='icons/scroll_down.png'&quot;"/>
+  <Default name="HScrollBar" value="height='16' bknormalimage=&quot;file='icons/scroll_track.png'&quot; thumbnormalimage=&quot;file='icons/scroll_thumb_h.png' corner='8,2,8,2'&quot; thumbhotimage=&quot;file='icons/scroll_thumb_hot_h.png' corner='8,2,8,2'&quot; thumbpushedimage=&quot;file='icons/scroll_thumb_pushed_h.png' corner='8,2,8,2'&quot; button1normalimage=&quot;file='icons/scroll_up.png'&quot; button1hotimage=&quot;file='icons/scroll_up.png'&quot; button1pushedimage=&quot;file='icons/scroll_up.png'&quot; button2normalimage=&quot;file='icons/scroll_down.png'&quot; button2hotimage=&quot;file='icons/scroll_down.png'&quot; button2pushedimage=&quot;file='icons/scroll_down.png'&quot;"/>
+  <VerticalLayout bkcolor="#FFF1EFE8">
+    <HorizontalLayout height="44" bkcolor="#FF0F6E56">
+      <Control width="35" bkimage="file='logo.png' dest='12,10,35,33'"/>
+      <Label text="备忘录工作台" textcolor="#FFFFFFFF" font="1" textpadding="6,0,0,0"/>
+      <Control/>
+      <Button name="minbtn" width="44" height="44" text="&#xFF0D;" textcolor="#FFDFEEE7" align="center" hotcolor="#FF12A279" pushedcolor="#FF0A5A45" font="1"/>
+      <Button name="maxbtn" width="44" height="44" text="&#x25A1;" textcolor="#FFDFEEE7" align="center" hotcolor="#FF12A279" pushedcolor="#FF0A5A45" font="1"/>
+      <Button name="closebtn" width="44" height="44" text="&#x00D7;" textcolor="#FFDFEEE7" align="center" hotcolor="#FFE25C5C" pushedcolor="#FFB33B3B" font="1"/>
+    </HorizontalLayout>
+    <HorizontalLayout>
+      <VerticalLayout width="200" bkcolor="#FFECEAE4" inset="14,16,14,16" childpadding="4">
+        <Label text="功能导航" textcolor="#FF888780" font="2" height="30"/>
+        <Button name="nav_todo" height="42" bkimage="file='icons/todo.png' dest='12,9,36,33'" text=" 待办事项" textpadding="40,0,0,0" textcolor="#FF2C2C2A" font="0" bkcolor="#FFD3D1C7" hotbkcolor="#FFD3D1C7" pushedbkcolor="#FFB4B2A9" align="left"/>
+        <Button name="nav_memo" height="42" bkimage="file='icons/memo.png' dest='12,9,36,33'" text=" 备忘录" textpadding="40,0,0,0" textcolor="#FF2C2C2A" font="0" hotbkcolor="#FFD3D1C7" pushedbkcolor="#FFB4B2A9" align="left"/>
+        <Button name="nav_note" height="42" bkimage="file='icons/note.png' dest='12,9,36,33'" text=" 便签" textpadding="40,0,0,0" textcolor="#FF2C2C2A" font="0" hotbkcolor="#FFD3D1C7" pushedbkcolor="#FFB4B2A9" align="left"/>
+        <Button name="nav_report" height="42" bkimage="file='icons/report.png' dest='12,9,36,33'" text=" 周报" textpadding="40,0,0,0" textcolor="#FF2C2C2A" font="0" hotbkcolor="#FFD3D1C7" pushedbkcolor="#FFB4B2A9" align="left"/>
+        <Control/>
+        <Label name="statusbar" text="数据目录: data\" textcolor="#FF888780" font="2" height="24"/>
+      </VerticalLayout>
+      <TabLayout name="pageContainer" inset="18,14,22,14" bkcolor="#FFF1EFE8"/>
+    </HorizontalLayout>
+  </VerticalLayout>
+</Window>

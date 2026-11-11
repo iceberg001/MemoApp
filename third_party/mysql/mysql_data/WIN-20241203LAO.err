@@ -1,0 +1,20 @@
+2026-11-10T07:11:44.319447Z 0 [System] [MY-013169] [Server] J:\MemoApp\third_party\mysql\bin\mysqld.exe (mysqld 8.0.44) initializing of server in progress as process 22668
+2026-11-10T07:11:49.590627Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2026-11-10T07:12:20.121740Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2026-11-10T07:13:03.347974Z 5 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+2026-11-10T07:25:54.358259Z 0 [System] [MY-010116] [Server] J:\MemoApp\third_party\mysql\bin\mysqld.exe (mysqld 8.0.44) starting as process 18752
+2026-11-10T07:25:54.464416Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2026-11-10T07:26:05.448380Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2026-11-10T07:26:11.007378Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2026-11-10T07:26:11.008104Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2026-11-10T07:26:11.501337Z 0 [System] [MY-010931] [Server] J:\MemoApp\third_party\mysql\bin\mysqld.exe: ready for connections. Version: '8.0.44'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2026-11-10T07:26:11.530291Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2026-11-10T07:48:47.926247Z 0 [System] [MY-010116] [Server] J:\MemoApp\third_party\mysql\bin\mysqld.exe (mysqld 8.0.44) starting as process 20472
+2026-11-10T07:48:51.758774Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2026-11-10T07:49:41.955248Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2026-11-10T07:49:47.580734Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2026-11-10T07:49:47.602151Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2026-11-10T07:49:50.957545Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2026-11-10T07:49:50.958256Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2026-11-10T07:49:53.894666Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2026-11-10T07:49:53.894777Z 0 [System] [MY-010931] [Server] J:\MemoApp\third_party\mysql\bin\mysqld.exe: ready for connections. Version: '8.0.44'  socket: ''  port: 3306  MySQL Community Server - GPL.

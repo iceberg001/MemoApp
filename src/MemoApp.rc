@@ -1,0 +1,6 @@
+// MemoApp 资源文件：应用图标 + 皮肤 zip 内嵌
+#include "resource.h"
+
+IDI_APP ICON "..\\resources\\app.ico"
+
+IDR_SKIN ZIPRES "..\\resources\\skin.zip"
